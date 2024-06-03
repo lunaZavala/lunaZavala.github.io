@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+/* AJUSTE DE BOX LOS BORDES */
+.main{
+    width: 100%;
+    height: 100vh;
+}
+/* INICIA SECCION 1 */
+.section-1{
+    
+    text-align: right;
+    width: 100%;
+    height: 10em;
+    background: linear-gradient(90deg,#1a4612,#44743d);
+}  
+
+
+.menu{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(252, 250, 250);
+    padding: 2em 1em;
+}
+.menu a:hover{
+    background-color: rgb(110, 168, 120);
+    
+}
+
+.img img{
+    
+ 
+width: 125.1px;
+height: 125.1px;
+}
+
+.contenido-text{
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 250px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+    color: #0f4e0d;
+ 
+ }
+
+ .container2 {
+    display: flex;
+    align-items: center;
+    background: url(https://th.bing.com/th/id/R.90745b8088a10a76bce765430f632e63?rik=iJoUU5BlaFGMXQ&pid=ImgRaw&r=0)
+}
+
+.container2 img {
+    margin-right: 5px;
+    border: 15px solid #053812;
+}
+
+.container2 p {
+    width: 10;
+    flex-grow: 1; 
+}
+
+.info2{
+    border: 5px solid #053812;
+    background-color: #80b363;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.container3 {
+    display: flex;
+    align-items: center;
+    background: url(https://cdn.mos.cms.futurecdn.net/Ye7Hjf9tcS3HNxDaMsAAm3-1200-80.jpg)
+}
+
+.container3 img {
+    margin-right: 5px;
+    border: 15px solid #5a3f17;
+}
+
+.container3 p {
+    width: 10;
+    flex-grow: 1; /* Hace que el texto ocupe todo el espacio disponible */
+}
+
+.info3{
+    border: 5px solid #5a3f17;
+    background-color: #5e855d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+ .container {
+    display: flex;
+    align-items: center;
+    background: url(https://www.poughkeepsiejournal.com/gcdn/-mm-/6f1caafc27cb13786be72048889b901c75fa59eb/c=0-687-3157-2471/local/-/media/2016/03/21/Westchester/Westchester/635941404058309297-snowflakes.jpg?width=3157&height=1784&fit=crop&format=pjpg&auto=webp); 
+}
+
+.container img {
+    margin-right: 5px;
+    border: 15px solid #5bb0e9;
+}
+
+.container p {
+    width: 200;
+    flex-grow: 5; /* Hace que el texto ocupe todo el espacio disponible */
+}
+
+.info{
+    border: 5px solid #5bb5f1;
+    background-color: #b7dff7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.container4 {
+    display: flex;
+    align-items: center;
+    background: url(https://c.wallhere.com/photos/3f/fa/2300x1300_px_Amber_atmosphere_Fall_forest_Hill_landscape_leaves-788527.jpg!d)
+}
+
+.container4 img {
+    margin-right: 5px;
+    border: 15px solid #e07714;
+}
+
+.container4 p {
+    width: 10;
+    flex-grow: 1; /* Hace que el texto ocupe todo el espacio disponible */
+}
+
+.info4{
+    border: 5px solid #e07714;
+    background-color: #694933;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.container5 {
+    display: flex;
+    align-items: center;
+    background: url(https://thumbs.dreamstime.com/b/textura-rocosa-de-la-superficie-una-monta%C3%B1a-cierre-roca-para-fondo-181693263.jpg)
+}
+
+.container5 img {
+    margin-right: 5px;
+    border: 15px solid #4b4b4b;
+}
+
+.container5 p {
+    width: 10;
+    flex-grow: 1; /* Hace que el texto ocupe todo el espacio disponible */
+}
+
+.info5{
+    border: 5px solid #4b4b4b;
+    background-color: #949494;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.container6 {
+    display: flex;
+    align-items: center;
+    background: url(https://th.bing.com/th/id/R.134ab5b4f50590fbe8d5a58705267bad?rik=3FWVypyoHhSW2w&pid=ImgRaw&r=0)
+}
+
+.container6 img {
+    margin-right: 5px;
+    border: 15px solid #e2c153;
+}
+
+.container6 p {
+    width: 10;
+    flex-grow: 1; /* Hace que el texto ocupe todo el espacio disponible */
+}
+
+.info6{
+    border: 5px solid #e2c153;
+    background-color: #b39c1a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.container7 {
+    display: flex;
+    align-items: center;
+    background: url(https://i.pinimg.com/originals/66/e5/f3/66e5f3f9a9ec6b187ffd890053117858.jpg);
+}
+.container7 img {
+    margin-right: 5px;
+    border: 15px solid #6f7c6f;
+}
+
+.container7 p {
+    width: 10;
+    flex-grow: 1; /* Hace que el texto ocupe todo el espacio disponible */
+}
+
+.info7{
+    border: 5px solid #6f7c6f;
+    background-color: #8c9486;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.container8 {
+    display: flex;
+    align-items: center;
+    background: url(https://die-abenteuerliche.de/wp-content/uploads/2017/02/2017-02-20-22.08.03.jpg.jpg)
+}
+
+.container8 img {
+    margin-right: 5px;
+    border: 15px solid #364929;
+}
+
+.container8 p {
+    width: 10;
+    flex-grow: 1; /* Hace que el texto ocupe todo el espacio disponible */
+}
+
+.info8{
+    border: 5px solid #364929;
+    background-color: #698361;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+

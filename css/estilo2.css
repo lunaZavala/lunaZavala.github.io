@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+/* AJUSTE DE BOX LOS BORDES */
+.main{
+    width: 100%;
+    height: 100vh;
+}
+/* INICIA SECCION 1 */
+.section-1{
+    
+    text-align: right;
+    width: 100%;
+    height: 10em;
+    background: linear-gradient(90deg,#1a4612,#44743d);
+}  
+
+
+ul{
+    padding: 10px;
+    margin: 0;
+    border: 10px solid #4b8f4b;
+    display: inline-block;
+    position:absolute;
+    top: 12%;
+    left: 15%; 
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.menu{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(252, 250, 250);
+    padding: 2em 1em;
+}
+.menu a:hover{
+    background-color: rgb(110, 168, 120);
+}
+
+.s2-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/62cb374d4a45b91d1744de06/1657492419138-7KEPWZPAAYKKOVQC7KQK/unsplash-image-oJDgZCVUOJ0.jpg?format=300w);
+    align-items: center;
+    padding:  10em;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.imgen{
+    width: 300px;
+   margin: 0 20px; 
+   border-radius: 100%;
+   border-color: #0b3304;
+   border: 8px solid #6c976e;
+}
+
+
+
+.contenido-img:hover{
+    background-color: rgb(50, 77, 56);
+    transform: scale(1.2); 
+    transition: transform 0.3s ease; 
+    font-size: 1.2em; 
+    border-radius: 20%;
+   
+
+}
+
+.s3-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/62cb374d4a45b91d1744de06/1657492419138-7KEPWZPAAYKKOVQC7KQK/unsplash-image-oJDgZCVUOJ0.jpg?format=300w);
+    align-items: center;
+    padding:  1em;
+    justify-content: center;
+    text-align: center;
+    text-decoration: dotted;
+
+}
+
+p{
+    color:#9ee0a1;
+    font-weight: 900;
+    font-size: x-large;
+}
